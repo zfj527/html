@@ -8,7 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="comment.css">
+    <script src="comment.js"></script>
+    <title>评论区精选</title>
 </head>
 <body>
 
