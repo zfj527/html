@@ -29,17 +29,4 @@ public class GetMysql {
         return conn;
     }
 
-    public static void main(String[] args){
-        try {
-            Connection connection = GetMysql.getConnection();
-            if(connection != null){
-                System.out.println("数据库连接正常");
-            }
-            if(connection == null){
-                System.out.println("数据库连接异常");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 }

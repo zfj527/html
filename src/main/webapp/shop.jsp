@@ -16,12 +16,11 @@
 <html>
 <head>
     <title>商品</title>
-    <link href="shop.css" rel="stylesheet" type="text/css">
+    <link href="shop.css" rel="stylesheet" >
 </head>
 <body>
 <h1>商品列表</h1>
 <hr />
-
 <table width="750" height="60" cellpadding="0" cellspacing="0" border="0" align="center">
     <tr>
         <td>
@@ -35,9 +34,9 @@
             <div>
                 <dl>
                     <dt>
-                        <a href="products_details.jsp?id=<%=t.getId()%>">
-                            <img src="images/<%=t.getPicture()%>" width="120" height="90" border="1"/>
-                        </a>
+
+                            <img src="img/<%=t.getPicture()%>" width="120" height="90" border="1"/>
+
                     </dt>
                     <dd class="dd_name"><%=t.getName()%></dd>
                     <dd class="dd_city">产地:<%=t.getCity() %>&nbsp;&nbsp;价格:¥<%=t.getPrice()%></dd>
