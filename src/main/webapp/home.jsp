@@ -22,7 +22,7 @@
                 <p class="slogan2" id="slogan2">欢迎${my_name}回家，这是属于我们的时代！</p>
             </div>
             <div class="buttons">
-                <button class="button1" onclick="window.open('my_home.jsp')">关于我自己</button>
+                <button class="button1" onclick="window.open('shop.jsp')">关于我自己</button>
                 <button class="button1" onclick="window.open('talk.jsp')">进入聊天室</button>
                 <button class="button1" onclick="window.open('comment.jsp')">进入评论区精选</button>
             </div>
@@ -46,11 +46,9 @@
     <script>
         window.onload=load2D_bg();
         window.onload=load2D_bg2();
-        window.onload=load2D_bg2_2();//不写注释一时爽，写完再看火葬场
+        window.onload=load2D_bg2_2();
         window.onload=load2D_lihui();
         window.onload=load2D_yinghua();
-        
-        
     </script>
     
 </body>
